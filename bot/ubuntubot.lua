@@ -230,7 +230,8 @@ function create_config( )
     "leave_ban",
 	"supergroup",
 	"whitelist",
-	"msg_checks"
+	"msg_checks",
+	"plugins"
     },
     sudo_users = {259967161,tonumber(our_id)},--Sudo users
     moderation = {data = 'data/moderation.json'},
